@@ -1,0 +1,60 @@
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 1050);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 950);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 850);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 750);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 650);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 550);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 450);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 350);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 250);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 150);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 250);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 350);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 450);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 550);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 650);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 750);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 850);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 950);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 1050);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 950);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 850);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 750);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 650);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 550);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 450);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 350);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 250);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 150);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('111.222.333-44', 'Mariazinha', 'true', 250);
+INSERT INTO tb_customer_account (cpf_cnpj, nm_customer, is_active, vl_total) 
+VALUES ('444.333.222-11', 'Joaozinho', 'true', 350);

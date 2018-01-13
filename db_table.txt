@@ -1,0 +1,29 @@
+create table "ROOT".MOTORISTA
+(
+	ID INTEGER GENERATED ALWAYS AS IDENTITY(START WITH 1, INCREMENT BY 1) not null primary key,
+	NOME VARCHAR(255) not null,	
+	CPF VARCHAR(15) not null,
+	DTNASCIMENTO DATE not null,
+	SEXO VARCHAR(15) not null,
+	MODELO_DO_CARRO VARCHAR(255) not null,
+	STATUS BOOLEAN default true not null	
+);
+
+create table "ROOT".PASSAGEIRO
+(
+	ID INTEGER GENERATED ALWAYS AS IDENTITY(START WITH 1, INCREMENT BY 1) not null primary key,
+	NOME VARCHAR(255) not null,	
+	CPF VARCHAR(15) not null,
+	DTNASCIMENTO DATE not null,
+	SEXO VARCHAR(15) not null	
+);
+
+create table "ROOT".CORRIDA
+(
+	ID INTEGER GENERATED ALWAYS AS IDENTITY(START WITH 1, INCREMENT BY 1)  not null primary key,
+	MOTORISTA_ID INTEGER not null,
+	PASSAGEIRO_ID INTEGER not null,
+	VALOR DOUBLE not null,
+	FOREIGN KEY (MOTORISTA_ID) REFERENCES motorista(id),
+	FOREIGN KEY (PASSAGEIRO_ID) REFERENCES passageiro(id)	
+);
