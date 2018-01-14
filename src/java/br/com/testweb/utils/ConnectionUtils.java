@@ -8,7 +8,6 @@ import java.sql.SQLException;
  *
  * @author wesley oliveira de carvalho
  */
-
 public class ConnectionUtils {
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
@@ -18,9 +17,9 @@ public class ConnectionUtils {
 
         try {
             connection = DriverManager.getConnection(
-                    "jdbc:derby://localhost:1527/TestWeb",
+                    "https://node156094-env-3196184.jelasticlw.com.br",
                     "root",
-                    "root");
+                    "IVGpgk51526");
             return connection;
         } catch (SQLException e) {
             throw new RuntimeException(e);
