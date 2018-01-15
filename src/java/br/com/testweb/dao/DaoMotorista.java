@@ -19,7 +19,7 @@ public class DaoMotorista {
 
     public static void cadastrar(Motorista motorista)
             throws ClassNotFoundException, SQLException {
-        String sql = "INSERT INTO motorista (nome, cpf, dtNascimento, sexo, "
+        String sql = "INSERT INTO MOTORISTA (nome, cpf, dtNascimento, sexo, "
                 + "modelo_do_carro, status) VALUES (?, ?, ?, ?, ?, ?)";
 
         Connection connection = null;
@@ -51,8 +51,8 @@ public class DaoMotorista {
 
     public static void atualizar(Motorista motorista)
             throws ClassNotFoundException, SQLException {
-        String sql = "UPDATE motorista SET nome=?, cpf=?, dtNascimento=?, "
-                + "sexo=?, modelo_do_carro=?, status=? WHERE (motorista.id=?)";
+        String sql = "UPDATE MOTORISTA SET nome=?, cpf=?, dtNascimento=?, "
+                + "sexo=?, modelo_do_carro=?, status=? WHERE (MOTORISTA.id=?)";
 
         Connection connection = null;
 
@@ -84,7 +84,7 @@ public class DaoMotorista {
 
     public static List<Motorista> listar()
             throws ClassNotFoundException, SQLException {
-        String sql = "SELECT * FROM motorista";
+        String sql = "SELECT * FROM MOTORISTA";
 
         List<Motorista> listaMotoristas = null;
 
@@ -134,7 +134,7 @@ public class DaoMotorista {
 
     public static Motorista obter(int id)
             throws ClassNotFoundException, SQLException {
-        String sql = "SELECT * FROM motorista WHERE (motorista.id=?)";
+        String sql = "SELECT * FROM MOTORISTA WHERE (MOTORISTA.id=?)";
 
         Connection connection = null;
 
@@ -179,7 +179,7 @@ public class DaoMotorista {
 
     public static void excluir(int id)
             throws ClassNotFoundException, SQLException {
-        String sql = "DELETE FROM motorista WHERE (motorista.id=?)";
+        String sql = "DELETE FROM MOTORISTA WHERE (MOTORISTA.id=?)";
 
         Connection connection = null;
 

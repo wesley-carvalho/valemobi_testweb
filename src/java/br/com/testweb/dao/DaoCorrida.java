@@ -17,7 +17,7 @@ public class DaoCorrida {
 
     public static void cadastrar(Corrida corrida)
             throws ClassNotFoundException, SQLException {
-        String sql = "INSERT INTO corrida (motorista_id, passageiro_id, valor)"
+        String sql = "INSERT INTO CORRIDA (motorista_id, passageiro_id, valor)"
                 + " VALUES (?, ?, ?)";
 
         Connection connection = null;
@@ -45,7 +45,7 @@ public class DaoCorrida {
 
     public static List<Corrida> listar()
             throws ClassNotFoundException, SQLException {
-        String sql = "SELECT * FROM corrida";
+        String sql = "SELECT * FROM CORRIDA";
 
         List<Corrida> listaCorridas = null;
 

@@ -17,7 +17,7 @@
         <div class="jumbotron">
             <div class="container notification">
                 <h1><spam class="glyphicon glyphicon-remove"></spam> Erro!</h1>
-                <p>Retornar ao menu principal</p>
+                <p>Retornar ao menu principal</p>                
                 <p><a class="btn btn-primary" href="${pageContext.request.contextPath}/home" role="button">Voltar</a></p>
             </div><!--/.container-->            
         </div>

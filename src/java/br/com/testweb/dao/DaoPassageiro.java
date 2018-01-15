@@ -19,7 +19,7 @@ public class DaoPassageiro {
 
     public static void cadastrar(Passageiro passageiro)
             throws ClassNotFoundException, SQLException {
-        String sql = "INSERT INTO passageiro (nome, cpf, dtNascimento, sexo) "
+        String sql = "INSERT INTO PASSAGEIRO (nome, cpf, dtNascimento, sexo) "
                 + "VALUES (?, ?, ?, ?)";
 
         Connection connection = null;
@@ -49,8 +49,8 @@ public class DaoPassageiro {
 
     public static void atualizar(Passageiro passageiro)
             throws ClassNotFoundException, SQLException {
-        String sql = "UPDATE passageiro SET nome=?, cpf=?, dtNascimento=?, "
-                + "sexo=? WHERE (passageiro.id=?)";
+        String sql = "UPDATE PASSAGEIRO SET nome=?, cpf=?, dtNascimento=?, "
+                + "sexo=? WHERE (PASSAGEIRO.id=?)";
 
         Connection connection = null;
 
@@ -80,7 +80,7 @@ public class DaoPassageiro {
 
     public static List<Passageiro> listar()
             throws ClassNotFoundException, SQLException {
-        String sql = "SELECT * FROM passageiro";
+        String sql = "SELECT * FROM PASSAGEIRO";
 
         List<Passageiro> listaPassageiros = null;
 
@@ -128,7 +128,7 @@ public class DaoPassageiro {
 
     public static Passageiro obter(int id)
             throws ClassNotFoundException, SQLException {
-        String sql = "SELECT * FROM passageiro WHERE (passageiro.id=?)";
+        String sql = "SELECT * FROM PASSAGEIRO WHERE (PASSAGEIRO.id=?)";
 
         Connection connection = null;
 
@@ -171,7 +171,7 @@ public class DaoPassageiro {
 
     public static void excluir(int id)
             throws ClassNotFoundException, SQLException {
-        String sql = "DELETE FROM passageiro WHERE (passageiro.id=?)";
+        String sql = "DELETE FROM PASSAGEIRO WHERE (PASSAGEIRO.id=?)";
 
         Connection connection = null;
 
